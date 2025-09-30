@@ -1,0 +1,18 @@
+1. generate_nombre_divisible_renvoie_liste_diviseurs
+
+GIVEN
+    On veut générer la liste des facteurs premiers d'un nombre quelconque divisible en facteurs premiers
+WHEN
+    J'exécute generate()
+THEN
+    La fonction doit renvoyer la liste des diviseurs premiers du nombre donné
+
+
+2. generate_avec_un_renvoie_liste_vide
+
+GIVEN
+    On veut générer la liste des facteurs premiers du chiffre 1
+WHEN
+    J'exécute generate()
+THEN
+    La fonction doit renvoyer une liste vide
